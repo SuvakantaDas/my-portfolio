@@ -1,0 +1,176 @@
+{
+  "main": {
+    "name":"Suvakanta Das",
+    "occupation":"Full Stack Developer",
+    "description":"experience in all aspects of the software development life cycle, including requirements analysis, design, development and testing. I am a supportive and enthusiastic team player dedicated to streamlining the processes and efficiently resolving project issues. Willing to learn and master Single Page Application",
+    "image":"shubhaprofilepic.jpg",
+    "bio":"I am Suvakanta Das, you can call me Shubha.I am a programmer, lyricist,music lover and experimental cook. I would like to experiment on my life, food and coding.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "suvakantadas@outlook.com",
+    "phone":"+91-7504128663",
+    "address":{
+      "street":"Nayapalli",
+      "city":"Bhubaneswar",
+      "state":"Odisha",
+      "zip": "751015"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/suvakanta-das/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/SuvakantaDas",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"https://join.skype.com/invite/YgruJXhT0Nau",
+        "className":"fa fa-skype"
+      },
+      {
+        "name":"stackoverflow",
+        "url":"https://stackoverflow.com/users/8736056/suvakanta-das",
+        "className":"fa fa-stack-overflow"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/SuvakantDas",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/savakanta.das/",
+        "className":"fa fa-facebook"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Skills & Competencies",
+    "education":[
+      {
+        "school":"Orissa Engineering College, Bhubaneswar under BPUT University",
+        "degree":"B.Tech in Computer Science and Engineering",
+        "graduated":"June 2016",
+        "description":""
+      },
+      {
+        "school":"B.Mohavidyalaya, Jajpur affiliated to CHSE board",
+        "degree":"Intermidiate",
+        "graduated":"May 2011",
+        "description":""
+      },
+      {
+        "school":"Samareswar Bidyapitha, Jajpur affiliated to BSE",
+        "degree":"High School",
+        "graduated":"May 2009",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"SimpleeKare",
+        "title":"Full Stack Developer ",
+        "years":"March 2018 - Present",
+        "description":"I am working as a full stack developer (Front End, Back End, Middleware) which includes below points."
+      },
+      {
+        "company":"SimpleeKare",
+        "title":"Software Developer Intern",
+        "years":"December 2017 - February 2018",
+        "description":"Worked in a team with senior developers to develop a Pathology Lab Management Web Application."
+      }
+    ],
+    "skills":[
+      {
+        "name":"ReactJS",
+        "level":"50%"
+      },
+      {
+        "name":"Redux",
+        "level":"40%"
+      },
+      {
+        "name":"HTML",
+        "level":"70%"
+      },
+      {
+        "name":"CSS",
+        "level":"65%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"50%"
+      },
+      {
+        "name":"Bootstrap",
+        "level":"70%"
+      },
+      {
+        "name":"PHP",
+        "level":"80%"
+      },
+      {
+        "name":"MySQL",
+        "level":"70%"
+      },
+      {
+        "name":"RESTful API",
+        "level":"80%"
+      },
+      {
+        "name":"Amazon Web Services(AWS)",
+        "level":"40%"
+      },
+      {
+        "name":"POSTMAN",
+        "level":"85%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"ConferKare",
+        "category":"This is a cloud-based “Patient Record Management” Web Application that helps the patient to consult the doctor online.",
+        "image":"conferkare.png",
+        "url":"https://www.conferkare.com"
+      },
+      {
+        "title":"ConferClinic",
+        "category":"This is a cloud-based “Clinic Management web application” which helps in maintaining day to day business activities of clinics.",
+        "image":"conferclinic.png",
+        "url":"http://www.conferclinic.com"
+      },
+      {
+        "title":"ConferDr",
+        "category":"This is a cloud-based “Doctor practice Management” Web Application which helps the doctors to manage their daily practices.",
+        "image":"conferdr.png",
+        "url":"http://www.conferdr.com"
+      },
+     
+      {
+        "title":"SimpleeLabs",
+        "category":"official website of simpleelabs",
+        "image":"simpleelabs.png",
+        "url":"http://www.simpleelabs.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}

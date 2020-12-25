@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class About extends Component {
   render() {
 
-    if(this.props.data){
+    
       var name = 'Suvakanta Das';
       var profilepic= "images/shubhaprofilepic.jpg";
       var bio = 'I am Suvakanta Das, people call me Shubha.I am a programmer, lyricist,music lover and experimental cook. I would like to experiment on my life, food and coding.';
@@ -15,7 +15,7 @@ class About extends Component {
       var email = 'suvakantadas@outlook.com';
       var resumeDownload = this.props.data.resumedownload;
       var SuvakantaDasresumeDownload = this.props.data.SUVAKANTA_DAS_RESUME;
-    }
+    
 
     return (
       <section id="about">

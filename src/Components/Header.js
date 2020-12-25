@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Header extends Component {
   render() {
 
-    if(this.props.data){
+    
       var name = 'Suvakanta Das';
       var occupation= 'Full Stack Developer';
       var description= 'experience in all aspects of the software development life cycle, including requirements analysis, design, development and testing. I am a supportive and enthusiastic team player dedicated to streamlining the processes and efficiently resolving project issues. Willing to learn and master Single Page Application';
@@ -43,7 +43,7 @@ class Header extends Component {
       var networks= social.map(function(network){
         return <li key={network.name}><a href={network.url} target="_blank"><i className={network.className}></i></a></li>
       })
-    }
+   
 
     return (
       <header id="home">

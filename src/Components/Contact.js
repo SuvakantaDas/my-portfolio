@@ -4,14 +4,14 @@ class Contact extends Component {
   render() {
 
     if(this.props.data){
-      var name = this.props.data.name;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
-      var email = this.props.data.email;
-      var message = this.props.data.contactmessage;
+      var name = 'Suvakanta Das';
+      var street = 'Nayapalli';
+      var city = 'Bhubaneswar';
+      var state = 'Odisha';
+      var zip = '751015';
+      var phone= '+91-7505128663';
+      var email = 'suvakantadas@outlook.com';
+      var message = 'feel free to message me';
     }
 
     return (
@@ -19,22 +19,22 @@ class Contact extends Component {
 
          <div className="row section-head">
 
-            <div className="two columns header-col">
+           {/*  <div className="two columns header-col">
 
                <h1><span>Get In Touch.</span></h1>
 
-            </div>
+            </div> */}
 
-            <div className="ten columns">
+           {/*  <div className="ten columns">
 
                   <p className="lead">{message}</p>
 
-            </div>
+            </div> */}
 
          </div>
 
          <div className="row">
-            <div className="eight columns">
+            {/* <div className="eight columns">
 
                <form action="" method="post" id="contactForm" name="contactForm">
 					<fieldset>
@@ -72,7 +72,7 @@ class Contact extends Component {
 				   <div id="message-success">
                   <i className="fa fa-check"></i>Your message was sent, thank you!<br />
 				   </div>
-           </div>
+           </div> */}
 
 
             <aside className="four columns footer-widgets">

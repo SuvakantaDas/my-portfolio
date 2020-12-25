@@ -3,11 +3,42 @@ import React, { Component } from 'react';
 class Footer extends Component {
   render() {
 
-    if(this.props.data){
-      var networks= this.props.data.social.map(function(network){
+    var social= [
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/suvakanta-das/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/SuvakantaDas",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"https://join.skype.com/invite/YgruJXhT0Nau",
+        "className":"fa fa-skype"
+      },
+      {
+        "name":"stackoverflow",
+        "url":"https://stackoverflow.com/users/8736056/suvakanta-das",
+        "className":"fa fa-stack-overflow"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/SuvakantDas",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/savakanta.das/",
+        "className":"fa fa-facebook"
+      }
+    ];
+      var networks=social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
-    }
+    
 
     return (
       <footer>

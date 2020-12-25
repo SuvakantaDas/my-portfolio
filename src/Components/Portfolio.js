@@ -2,9 +2,34 @@ import React, { Component } from 'react';
 
 class Portfolio extends Component {
   render() {
-
-    if(this.props.data){
-      var projects = this.props.data.projects.map(function(projects){
+      var projects= [
+        {
+          "title":"ConferKare",
+          "category":"This is a cloud-based “Patient Record Management” Web Application that helps the patient to consult the doctor online.",
+          "image":"conferkare.png",
+          "url":"https://www.conferkare.com"
+        },
+        {
+          "title":"ConferClinic",
+          "category":"This is a cloud-based “Clinic Management web application” which helps in maintaining day to day business activities of clinics.",
+          "image":"conferclinic.png",
+          "url":"http://www.conferclinic.com"
+        },
+        {
+          "title":"ConferDr",
+          "category":"This is a cloud-based “Doctor practice Management” Web Application which helps the doctors to manage their daily practices.",
+          "image":"conferdr.png",
+          "url":"http://www.conferdr.com"
+        },
+       
+        {
+          "title":"SimpleeLabs",
+          "category":"official website of simpleelabs",
+          "image":"simpleelabs.png",
+          "url":"http://www.simpleelabs.com"
+        }
+      ];
+      var projects = projects.map(function(projects){
         var projectImage = 'images/portfolio/'+projects.image;
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
@@ -21,7 +46,7 @@ class Portfolio extends Component {
           </div>
         </div>
       })
-    }
+    
 
     return (
       <section id="portfolio">

@@ -30,7 +30,9 @@ class Portfolio extends Component {
         }
       ];
       var projects = projects.map(function(projects){
+
         var projectImage = 'images/portfolio/'+projects.image;
+        //console.log(projectImage)
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
             <a href={projects.url} title={projects.title}>

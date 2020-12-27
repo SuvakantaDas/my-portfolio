@@ -13,8 +13,8 @@ class About extends Component {
       var zip = '751015';
       var phone= '+91-7504128663';
       var email = 'suvakantadas@outlook.com';
-      var resumeDownload = this.props.data.resumedownload;
-      var SuvakantaDasresumeDownload = this.props.data.SUVAKANTA_DAS_RESUME;
+      //var resumeDownload = this.props.data.resumedownload;
+      //var SuvakantaDasresumeDownload = this.props.data.SUVAKANTA_DAS_RESUME;
     
 
     return (

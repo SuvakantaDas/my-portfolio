@@ -6,32 +6,32 @@ class Portfolio extends Component {
         {
           "title":"ConferKare",
           "category":"This is a cloud-based “Patient Record Management” Web Application that helps the patient to consult the doctor online.",
-          "image":"conferkare.png",
+          "image":"images/portfolio/conferkare.png",
           "url":"https://www.conferkare.com"
         },
         {
           "title":"ConferClinic",
           "category":"This is a cloud-based “Clinic Management web application” which helps in maintaining day to day business activities of clinics.",
-          "image":"conferclinic.png",
+          "image":"images/portfolio/conferclinic.png",
           "url":"http://www.conferclinic.com"
         },
         {
           "title":"ConferDr",
           "category":"This is a cloud-based “Doctor practice Management” Web Application which helps the doctors to manage their daily practices.",
-          "image":"conferdr.png",
+          "image":"images/portfolio/conferdr.png",
           "url":"http://www.conferdr.com"
         },
        
         {
           "title":"SimpleeLabs",
           "category":"official website of simpleelabs",
-          "image":"simpleelabs.png",
+          "image":"images/portfolio/simpleelabs.png",
           "url":"http://www.simpleelabs.com"
         }
       ];
       var projects = projects.map(function(projects){
 
-        var projectImage = 'images/portfolio/'+projects.image;
+        var projectImage = projects.image;
         //console.log(projectImage)
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">

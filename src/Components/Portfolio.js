@@ -6,26 +6,26 @@ class Portfolio extends Component {
         {
           "title":"ConferKare",
           "category":"This is a cloud-based “Patient Record Management” Web Application that helps the patient to consult the doctor online.",
-          "image":"../images/portfolio/conferkare.png",
+          "image":"../images/portfolio/conferkare.jpg",
           "url":"https://www.conferkare.com"
         },
         {
           "title":"ConferClinic",
           "category":"This is a cloud-based “Clinic Management web application” which helps in maintaining day to day business activities of clinics.",
-          "image":"../images/portfolio/conferclinic.png",
+          "image":"../images/portfolio/conferclinic.jpg",
           "url":"http://www.conferclinic.com"
         },
         {
           "title":"ConferDr",
           "category":"This is a cloud-based “Doctor practice Management” Web Application which helps the doctors to manage their daily practices.",
-          "image":"../images/portfolio/conferdr.png",
+          "image":"../images/portfolio/conferdr.jpg",
           "url":"http://www.conferdr.com"
         },
        
         {
           "title":"SimpleeLabs",
           "category":"official website of simpleelabs",
-          "image":"../images/portfolio/simpleelabs.png",
+          "image":"../images/portfolio/simpleelabs.jpg",
           "url":"http://www.simpleelabs.com"
         }
       ];
@@ -36,8 +36,8 @@ class Portfolio extends Component {
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
             <a href={projects.url} title={projects.title}>
-               <img alt={projects.title} src={projectImage} />
-               {console.log(projectImage)}
+               <img alt={projects.title} src={projectImage}/>
+               {/* {console.log(projectImage)} */}
                <div className="overlay">
                   <div className="portfolio-item-meta">
                  <h5>{projects.title}</h5>

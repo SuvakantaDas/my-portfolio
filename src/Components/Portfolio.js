@@ -6,7 +6,7 @@ class Portfolio extends Component {
         {
           "title":"ConferKare",
           "category":"This is a cloud-based “Patient Record Management” Web Application that helps the patient to consult the doctor online.",
-          "image":"../images/portfolio/conferkare.jpg",
+          "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fsun%2F&psig=AOvVaw01aGEh9Z5I_vv-EKqTHe8S&ust=1632136520987000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLCc4r_0ivMCFQAAAAAdAAAAABAD",
           "url":"https://www.conferkare.com"
         },
         {
